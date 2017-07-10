@@ -40,11 +40,11 @@ function renderRecipe(recipe) {
         '</span>' +
         '</span>' +
         '</span>' +
-        '<img src="img/recipes/320x350'+$(el).attr("name")+'.jpg" />' +
+        '<img src="img/recipes/320x350/'+el.name+'.jpg"/>' +
         '</a>');
     });
 }
-
+'<img src="img/recipes/320x350/spring-fromage-fort.jpg"/>'
 
 
 /*
