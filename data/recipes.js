@@ -1,3 +1,8 @@
+$(document).ready( function(){
+    //Ocultando el icono de menu en el recipe
+    $("#icono_menu_oculto").hide();
+
+});
 
 var recipesArray = [
   
