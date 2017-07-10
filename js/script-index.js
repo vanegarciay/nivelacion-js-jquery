@@ -46,8 +46,6 @@ function renderRecipe(recipe) {
         '</a>');
     });
 }
-'<img src="img/recipes/320x350/spring-fromage-fort.jpg"/>'
-
 
 /*
 * Función que se encarga de pintar todas las actividades
