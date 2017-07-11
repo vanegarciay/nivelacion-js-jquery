@@ -12,6 +12,9 @@ $(document).ready( function(){
         window.open('recipe.html','_self',false);
     });
 
+    // Agrega y quita clase
+    
+
 });
 
 

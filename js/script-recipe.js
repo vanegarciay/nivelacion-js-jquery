@@ -12,10 +12,14 @@ $(document).ready( function(){
  // Agrega y quita la clase make en clicks de elementos
     $(".js-show-make").click(function(event) {
         $(".page").addClass("make");
+        $(".js-show-make").addClass("active");
+        $(".js-show-recipe").removeClass("active");
     });
 
     $(".js-show-recipe").click(function(){
         $(".recipe").removeClass("make");
+        $(".js-show-recipe").addClass("active");
+        $(".js-show-make").removeClass("active");
     })
 
 });
