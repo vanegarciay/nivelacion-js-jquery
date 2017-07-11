@@ -7,6 +7,11 @@ $(document).ready( function(){
     //Ocultando el icono de flecha en el index
     $("#flecha_index_oculta").hide();
 
+    // Si hace click en la flecha back, vuelve al index
+    $(".todas_las_recetas").click(function(event) {
+        window.open('recipe.html','_self',false);
+    });
+
 });
 
 
